@@ -74,7 +74,6 @@ import time
 # https://docs.numato.com/doc/8-channel-usb-gpio-module-with-analog-inputs/
 
 
-
 if (len(sys.argv) < 2):
 	print "Usage: gpioread.py <PORT> <GPIONUM>\nEg: gpioread.py /dev/tty.usbmodem14721 0"
     # print "Usage: analogread.py <PORT> <Analog Channel>\nEg: analogread.py COM1 0"
